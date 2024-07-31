@@ -79,6 +79,10 @@
     ```bash
     git log
     ```
+6. **Modificar última mensagem de commit**
+    ```
+    git commit --amend -m "Mensagem do commit"
+    ```
     
 
 ### Trabalhando com GitHub
@@ -94,7 +98,7 @@
     
     ```bash
     git remote add origin https://github.com/usuario/nome-do-repositorio.git
-    git push -u origin master
+    git push -u origin main
     ```
     
 
